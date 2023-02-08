@@ -1,0 +1,18 @@
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 0;
+    &__header {
+        position: relative;
+        text-transform: uppercase;
+        margin-right: auto;
+        @include divider;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 120%;
+        color: $subtitle-color;
+    }
+}

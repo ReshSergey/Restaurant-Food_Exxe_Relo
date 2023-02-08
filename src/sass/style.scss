@@ -1,0 +1,24 @@
+@import 'base/fonts/fonts';
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables/colors';
+@import 'base/mixins/divider';
+@import 'base/mixins/menu_set_border';
+@import 'base/mixins/location';
+@import 'base/mixins/phone';
+
+// Desktop scss //
+@import 'blocks/container/container';
+@import 'blocks/buttons/buttons';
+@import 'blocks/title/title';
+@import 'blocks/header/header_desktop';
+@import 'blocks/menu_modal/menu-modal';
+@import 'blocks/hamburger/hamburger';
+@import 'blocks/modal/modal';
+@import 'blocks/about/about';
+@import 'blocks/menu/menu';
+@import 'blocks/delivery/delivery';
+@import 'blocks/contacts/contacts';
+@import 'blocks/footer/footer';
+
+// Mobile scss //
+// @import 'blocks/header/header_mobile';

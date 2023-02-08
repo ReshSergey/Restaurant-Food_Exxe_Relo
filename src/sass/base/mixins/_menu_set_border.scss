@@ -1,0 +1,12 @@
+@mixin menu-set-border {
+    &::before {
+        content: '';
+        position: absolute;
+        left: -40px;
+        top: -40px;
+        width: calc(100% + 80px);
+        height: 100%;
+        z-index: -1;
+        border: 1px solid rgba(51, 51, 51, 0.2);
+    }
+}

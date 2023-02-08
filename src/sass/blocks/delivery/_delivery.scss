@@ -1,0 +1,25 @@
+.delivery {
+    padding-top: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 310px 530px;
+        grid-template-rows: 200px 58px;
+        grid-auto-rows: auto;
+        gap: 85px 24px;
+        padding-left: 225px;
+        padding-top: 80px;
+    }
+    &__subtitle {
+        width: 310px;
+    }
+    &__buttons {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        display: flex;
+        gap: 30px;
+    }
+    &__btn {
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+}

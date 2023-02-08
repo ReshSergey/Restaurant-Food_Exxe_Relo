@@ -1,0 +1,84 @@
+.contacts {
+    padding-top: 120px;
+    &__wrapper {
+        display: flex;
+        padding-top: 80px;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__delivery {
+        display: grid;
+        grid-template-columns: repeat(2, 210px);
+        grid-template-rows: repeat(2, 160px);
+        grid-auto-rows: auto;
+        margin-top: 65px;
+        &-item {
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+        &-time {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120%;
+            color: $main-color;
+            span {
+                font-size: 64px;
+            }
+        }
+        &-descr {
+            width: 140px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+        }
+    }
+    &__details {
+       position: absolute;
+       left: 35%;
+       top: 25%;
+       width: 416px;
+       height: 349px;
+       background-color: $contacts-color;
+       color: $contacts-text-color;
+       line-height: 140%;
+       padding: 40px;
+    }
+    &__address {
+        position: relative;
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 35px;
+        @include location;
+    }
+    &__phone {
+        position: relative;
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 35px;
+        margin-top: 20px;
+        @include phone;
+    }
+    &__worktime {
+        padding-top: 25px;
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        &-item {
+            font-weight: 400;
+            font-size: 18px;
+            padding-top: 15px;
+        }
+    }
+    &__buttons {
+        display: flex;
+        gap: 20px;
+    }
+    &__btn {
+        height: 42px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 35px;
+    }
+}

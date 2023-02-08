@@ -1,0 +1,42 @@
+.menu {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    &__wrapper {
+        padding-left: 225px;
+        padding-top: 80px;
+        display: flex;
+        gap: 130px;
+    }
+    &__descr {
+        width: 530px;
+    }
+    &__set {
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 410px);
+        grid-auto-rows: auto;
+        gap: 34px;
+        justify-items: end;
+        align-items: center;
+        justify-content: center;
+    }
+    &__img {
+        position: relative;
+        width: 336px;
+        height: 240px;
+        border: 1px solid rgba(51, 51, 51, 0.2);
+        @include menu-set-border;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        margin-top: 24px;
+    }
+}
+
+// сделать гридами Блок set 

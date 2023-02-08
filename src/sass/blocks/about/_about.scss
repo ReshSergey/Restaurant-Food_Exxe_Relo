@@ -1,0 +1,16 @@
+.about {
+    padding-top: 150px;
+    &__wrapper {
+        display: flex;
+        gap: 120px;
+        word-wrap: break-word;
+        padding-left: 225px;
+        padding-top: 80px;
+    }
+    &__subtitle {
+        width: 196px;
+    }
+    &__descr {
+        width: 530px;
+    }
+}

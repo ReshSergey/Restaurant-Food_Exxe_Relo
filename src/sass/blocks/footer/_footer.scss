@@ -1,0 +1,22 @@
+.footer {
+    height: 120px;
+    background-color: $footer-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    img {
+        width: 80px;
+        height: 46px;
+    }
+    &__policy {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    &__disign {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+    }
+}
